@@ -1,4 +1,5 @@
 <!DOCTYPE HTML>
+<meta charset="UTF-8">
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -34,7 +35,7 @@
           <article class="post featured">
             <header class="major">
               <h2><a href="#">PORTFOLIO</a></h2>
-              <p> º∫¿Â«œ±‚ ¿ß«ÿ ≥Î∑¬ ¡ﬂ¿‘¥œ¥Ÿ.</p>
+              <p> Í≥ß Í¥ÄÎ†® Ìï≠Î™©Ïù¥ Ïò¨ÎùºÏò¨ ÏòàÏ†ïÏûÖÎãàÎã§.</p>
             </header>
 						<p>
                             1.
@@ -47,34 +48,8 @@
 
           </article>
 					<!-- Post -->
-					<section class="posts">
-						{% for post in site.posts %}
-						{% assign mod3 = forloop.index | modulo: 3 %}
-							<article>
-								<header>
-									<span class="date">{{ post.date | date_to_string }}</span>
-									<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-								</header>
-								<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-								<p>{{ post.excerpt }}</p>
-								<ul class="actions">
-									<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-								</ul>
-							</article>
-							{% if mod3 == 0 %}
-							<article>
-								<header>
-									<h2><a href="#">Sponsored</a></h2>
-								</header>
-
-							</article>
-							{% endif %}
-						{% endfor %}
-
-					</section>
-
-					</div>
-
+					
+					
 				<!-- Footer -->
         {% include foot.html %}
 

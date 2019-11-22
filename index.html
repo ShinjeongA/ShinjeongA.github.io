@@ -8,6 +8,7 @@ sitemap:
     changefreq: weekly
 ---
 <!DOCTYPE HTML>
+<meta charset="UTF-8">
 <!--
 	Massively by HTML5 UP
 	html5up.net | @ajlkn
@@ -29,7 +30,7 @@ sitemap:
 					<div id="intro">
             <h1>{{site.title}}</h1>
 						<h2>WELCOME TO MY SPACE</h2>
-						<p> Á¦ °ø°£¿¡ ¿À½Å ¿©·¯ºĞµéÀ» È¯¿µÇÕ´Ï´Ù! <br /></p>
+						<p> ì œ ê³µê°„ì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤! <br /></p>
 						<ul class="actions">
 							<li><a href="#header" class="button icon solo fa-arrow-down scrolly">Continue</a></li>
 						</ul>
@@ -53,41 +54,19 @@ sitemap:
 							<article class="post featured">
 								<header class="major">
 									<h2><a href="#">WELCOME!</a></h2>
-									<p>  <br />¹İ°©½À´Ï´Ù, ½ÅÁ¤¾ÆÀÔ´Ï´Ù :) <br /></p>
+									<p>  <br />ì œ ê³µê°„ì— ì˜¤ì‹  ê²ƒì„ í™˜ì˜í•©ë‹ˆë‹¤ :) <br /></p>
 								</header>
 								<a href="#" class="image main"><img src="{{ "/images/pic01.jpg" | absolute_url }}" alt="" /></a>
-                <p>1999.10.26. ´ë±¸</p>
-                <p>2019.3 ~ NOW °æÈñ´ëÇĞ±³ ÄÄÇ»ÅÍ°øÇĞ°ú </p>
+                <p>1999.10.26. ëŒ€êµ¬</p>
+                <p>2019.3 ~ NOW ê²½í¬ëŒ€í•™êµ ì»´í“¨í„°ê³µí•™ê³¼ </p>
 								<p>
-									¹æ¹®ÇØÁÖ¼Å¼­ °¨»çÇÕ´Ï´Ù.
+									ì•„ì§ ë§ì´ ë¶€ì¡±í•©ë‹ˆë‹¤.
 								 </p>
 
 							</article>
 
 						<!-- Posts -->
-							<section class="posts">
-                {% for post in site.posts limit:3 %}
-                {% assign mod3 = forloop.index | modulo: 3 %}
-  								<article>
-  									<header>
-  										<span class="date">{{ post.date | date_to_string }}</span>
-  										<h2><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  									</header>
-  									<a href="{{ post.url | absolute_url }}" class="image fit"><img src="{{ post.image | absolute_url }}" alt="" /></a>
-  									<p>{{ post.excerpt }}</p>
-  									<ul class="actions">
-  										<li><a href="{{ post.url | absolute_url }}" class="button">Full Story</a></li>
-  									</ul>
-  								</article>
-                  {% if mod3 == 0 %}
-                  <article>
-  									<header>
-  										<h2><a href="#">Sponsored</a></h2>
-  									</header>
-
-  								</article>
-                  {% endif %}
-                {% endfor %}
+							
 
 							</section>
 
