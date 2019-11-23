@@ -8,10 +8,10 @@ sitemap:
     changefreq: weekly
 ---
 ## About ME
-
+<meta charset="utf-8">
 <span class="image left"><img src="{{ "/images/pic04.jpg" | absolute_url }}" alt="" /></span>
 <p>
-Àú¿¡ ´ëÇØ ¼Ò°³ÇÏ°Ú½À´Ï´Ù.</p>
+ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ò°ï¿½ï¿½Ï°Ú½ï¿½ï¿½Ï´ï¿½.</p>
 
 ### Content is Imortant
 <div class="box">
